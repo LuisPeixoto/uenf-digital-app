@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "290210064916",
+    "firebase_url": "https://uenf-digital-37128.firebaseio.com",
+    "project_id": "uenf-digital-37128",
+    "storage_bucket": "uenf-digital-37128.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:290210064916:android:1018cad3298a8ea034d501",
+        "android_client_info": {
+          "package_name": "com.uenf_digital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "290210064916-54uunmuuari83nn7cg6lm7e672jajaqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uenf_digital",
+            "certificate_hash": "83156c5f60af5b7bb5ca32a7bf9f5518c55ca8ea"
+          }
+        },
+        {
+          "client_id": "290210064916-hqu6l08ktmh73f7q3irgeup0ktp711uk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyhZnpVjnN2_6zMSA7V7GbmNx3HaGs3wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "290210064916-hqu6l08ktmh73f7q3irgeup0ktp711uk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
