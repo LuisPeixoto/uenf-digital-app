@@ -19,6 +19,7 @@ export default class OptionsAbout extends Component {
           {items.map((item, index) => {
             return (
               <TouchableOpacity
+                key={index}
                 activeOpacity={0.8}
                 onPress={() =>
                   navigation.navigate('Início', {
@@ -29,7 +30,7 @@ export default class OptionsAbout extends Component {
                     },
                   })
                 }>
-                <View style={styles.Container} key={index}>
+                <View style={styles.Container}>
                   <View style={styles.Feed}>
                     <Image source={item.image} style={styles.Thumbnail} />
                     <Text style={styles.name}>{item.name}</Text>
