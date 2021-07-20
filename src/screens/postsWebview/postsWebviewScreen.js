@@ -1,23 +1,22 @@
-import React, { Component } from "react";
-import { BackHandler } from "react-native";
-import { WebView } from "react-native-webview";
-import {modificationsDom} from './modificationsDomPosts'
+import React, {Component} from 'react';
+import {BackHandler} from 'react-native';
+import {WebView} from 'react-native-webview';
+import {modificationsDom} from './modificationsDomPosts';
 
 export default class App extends Component {
   WEBVIEW_REF = React.createRef();
 
   state = {
     canGoBack: false,
-    url:""
-    
+    url: '',
   };
- 
+
   componentDidMount() {
-    BackHandler.addEventListener("hardwareBackPress", this.handleBackButton);
+    BackHandler.addEventListener('hardwareBackPress', this.handleBackButton);
   }
 
   componentWillUnmount() {
-    BackHandler.removeEventListener("hardwareBackPress", this.handleBackButton);
+    BackHandler.removeEventListener('hardwareBackPress', this.handleBackButton);
   }
 
   handleBackButton = () => {
@@ -33,13 +32,12 @@ export default class App extends Component {
     });
   };
 
-  render()
-  {
-    const { url } = this.props.route.params;
+  render() {
+    const {url} = this.props.route.params;
 
     return (
       <WebView
-        source={{ uri:  url}}
+        source={{uri: url}}
         injectedJavaScript={modificationsDom}
         ref={this.WEBVIEW_REF}
         onNavigationStateChange={this.onNavigationStateChange}

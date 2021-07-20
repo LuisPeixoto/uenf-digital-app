@@ -1,23 +1,14 @@
-import React, { Component, useEffect } from 'react';
-import Page from '../../components/page'
-import {navi} from '@react-navigation/native'
+import React, {Component, useEffect} from 'react';
+import Page from '../../components/page';
 
 class SearchScreen extends Component {
-
   render() {
-    const { navigation, title, img } = this.props.route.params
+    const {navigation, title, img} = this.props.route.params;
     this.props.navigation.setOptions({
       headerTitle: title,
-    })    
+    });
 
-    return (
-      <Page
-        navigation={this.props.navigation}
-        title={title}
-        img={img}
-      />
-    )
-
+    return <Page navigation={this.props.navigation} title={title} img={img} />;
   }
 }
 

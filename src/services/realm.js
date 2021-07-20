@@ -1,9 +1,9 @@
-import Realm from 'realm'
+import Realm from 'realm';
 
-import NotificationSchemas from '../schemas/notificationSchemas'
+import NotificationSchemas from '../schemas/notificationSchemas';
 
-export default function getRealm(){
-    return Realm.open({
-        schema:[NotificationSchemas],
-    })
+export default function getRealm() {
+  return Realm.open({
+    schema: [NotificationSchemas],
+  });
 }
