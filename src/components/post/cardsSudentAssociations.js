@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
   Thumbnail: {
     width: '50%',
     minHeight: 100,
-    borderRadius: 100 / 2,
+    borderRadius: 100,
     resizeMode: 'contain',
   },
 
