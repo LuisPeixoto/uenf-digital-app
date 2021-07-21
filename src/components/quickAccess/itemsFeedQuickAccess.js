@@ -39,7 +39,7 @@ exports.items = [
 
   {
     title: 'Editais',
-    nameIcon: 'documents-outline',
+    nameIcon: 'documents',
     IconType: 'Ionicons',
     screen: 'PageScreen',
   },
