@@ -24,16 +24,16 @@ exports.items = [
 
   {
     title: 'Eventos',
-    nameIcon: 'calendar-star',
-    IconType: 'MaterialCommunityIcons',
+    nameIcon: 'trophy',
+    IconType: 'FontAwesome5',
     screen: 'PageScreen',
   },
 
   {
-    title: 'Documentos',
-    link: 'http://plataforma.uenf.br/documentos-academicos/',
-    nameIcon: 'document-text-outline',
-    IconType: 'Ionicons',
+    title: 'Calendário',
+    link: 'https://uenf.br/graduacao/calendario-academico/',
+    nameIcon: 'calendar-alt',
+    IconType: 'FontAwesome5',
     screen: 'WebView',
   },
 

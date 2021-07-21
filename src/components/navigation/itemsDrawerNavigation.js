@@ -16,6 +16,22 @@ exports.items = [
   },
 
   {
+    title: 'Hospital Veterinário',
+    nameIcon: 'hospital',
+    typeIcon: 'FontAwesome5',
+    screen: 'WebView',
+    url: 'https://hospital-veterinario-uenf.negocio.site/#details',
+  },
+
+  {
+    title: 'Documentos Acadêmicos',
+    nameIcon: 'document-text',
+    typeIcon: 'Ionicons',
+    screen: 'WebView',
+    url: 'https://digitalcc.uenf.br/documentos-academicos/',
+  },
+
+  {
     title: 'Projetos de extensão',
     nameIcon: 'lab-flask',
     typeIcon: 'Entypo',
@@ -29,22 +45,6 @@ exports.items = [
     typeIcon: 'FontAwesome5',
     screen: 'WebView',
     url: 'https://uenf.br/projetos/pibic/',
-  },
-
-  {
-    title: 'Hospital Veterinário',
-    nameIcon: 'hospital',
-    typeIcon: 'FontAwesome5',
-    screen: 'WebView',
-    url: 'https://hospital-veterinario-uenf.negocio.site/#details',
-  },
-
-  {
-    title: 'Calendários',
-    nameIcon: 'calendar-alt',
-    typeIcon: 'FontAwesome5',
-    screen: 'WebView',
-    url: 'https://uenf.br/portal/ensino/calendarios/',
   },
 
   {

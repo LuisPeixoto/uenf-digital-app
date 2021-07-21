@@ -33,6 +33,7 @@ export default class Quickaccess extends Component {
             }}>
             <View style={styles.Access}>
               <Icon
+                solid={true}
                 style={styles.Icons}
                 type={item.IconType}
                 name={item.nameIcon}
