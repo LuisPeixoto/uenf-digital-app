@@ -1,5 +1,12 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, TouchableOpacity, Text, Image} from 'react-native';
+import {
+  View,
+  StyleSheet,
+  TouchableOpacity,
+  Text,
+  Image,
+  Linking,
+} from 'react-native';
 import {Icon} from 'native-base';
 
 export default class ItemFeedNoThumbnail extends Component {
@@ -17,12 +24,7 @@ export default class ItemFeedNoThumbnail extends Component {
       <View>
         <TouchableOpacity
           activeOpacity={0.8}
-          onPress={() =>
-            navigation.navigate('Início', {
-              screen: 'WebView',
-              params: {url: `http://instagram.com/${instagram}/`},
-            })
-          }>
+          onPress={() => Linking.openURL(`http://instagram.com/${instagram}/`)}>
           <View style={styles.Container} key={index}>
             <View style={styles.Feed}>
               <View style={styles.ContainerImage}>

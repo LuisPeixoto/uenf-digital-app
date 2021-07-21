@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet, View, Text} from 'react-native';
 import {FlatGrid} from 'react-native-super-grid';
-import {Dimensions, TouchableOpacity} from 'react-native';
+import {Dimensions, TouchableOpacity, Linking} from 'react-native';
 import {Icon} from 'native-base';
 import {items} from './itemsFeedQuickAccess';
 
@@ -19,16 +19,18 @@ export default class Quickaccess extends Component {
         renderItem={({item, index}) => (
           <TouchableOpacity
             activeOpacity={0.8}
-            onPress={() =>
-              navigation.navigate('Início', {
-                screen: item.screen,
-                params: {
-                  title: item.title,
-                  url: item.link,
-                  img: item.img,
-                },
-              })
-            }>
+            onPress={() => {
+              item.title === 'Cardápio'
+                ? Linking.openURL(item.link)
+                : navigation.navigate('Início', {
+                    screen: item.screen,
+                    params: {
+                      title: item.title,
+                      url: item.link,
+                      img: item.img,
+                    },
+                  });
+            }}>
             <View style={styles.Access}>
               <Icon
                 style={styles.Icons}
