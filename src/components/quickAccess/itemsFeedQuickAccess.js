@@ -1,6 +1,6 @@
 exports.items = [
   {
-    title: 'Bibliotecas',
+    title: 'Biblioteca',
     nameIcon: 'book',
     IconType: 'FontAwesome',
     screen: 'Library',
