@@ -4,15 +4,7 @@ exports.items = [
     nameIcon: 'book',
     typeIcon: 'FontAwesome',
     screen: 'WebView',
-    url: 'http://plataforma.uenf.br/manual-do-calouro/',
-  },
-
-  {
-    title: 'Associações estudantis',
-    nameIcon: 'users',
-    typeIcon: 'FontAwesome',
-    screen: 'WebView',
-    url: 'http://plataforma.uenf.br/associacoes-estudantis/',
+    url: 'https://digitalcc.uenf.br/manual-do-calouro/',
   },
 
   {
@@ -36,7 +28,7 @@ exports.items = [
     nameIcon: 'lab-flask',
     typeIcon: 'Entypo',
     screen: 'WebView',
-    url: 'http://plataforma.uenf.br/projetos-de-extensao/',
+    url: 'https://digitalcc.uenf.br/projetos-de-extensao/',
   },
 
   {
