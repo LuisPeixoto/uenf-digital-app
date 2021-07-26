@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, Dimensions} from 'react-native';
 import LottieView from 'lottie-react-native';
 import Error from './error';
+
+const {width, height} = Dimensions.get('window');
 
 class NotFoundFeed extends Component {
   _isMounted = false;
@@ -37,7 +39,7 @@ class NotFoundFeed extends Component {
       return (
         <View style={styles.Container}>
           <LottieView
-            style={{width: '50%'}}
+            style={{width: width / 2.5}}
             source={require('../../assets/loading.json')}
             autoPlay
             loop
@@ -53,11 +55,11 @@ class NotFoundFeed extends Component {
 const styles = StyleSheet.create({
   Container: {
     flex: 1,
+    width: width,
+    height: height,
+    flexDirection: 'column',
+    justifyContent: 'center',
     alignItems: 'center',
-    top: 0,
-    left: 0,
-    marginTop: '60%',
-    width: '100%',
   },
 });
 
