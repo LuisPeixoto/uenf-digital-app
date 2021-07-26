@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
 
   Title: {
     fontSize: 24,
-    width: '60%',
+    width: '100%',
     textAlignVertical: 'center',
     textAlign: 'left',
     paddingHorizontal: 20,
