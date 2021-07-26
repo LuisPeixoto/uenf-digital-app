@@ -1,8 +1,17 @@
 import React, {Component} from 'react';
-import {TouchableOpacity, View, Text, StyleSheet, Image} from 'react-native';
+import {
+  TouchableOpacity,
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  Dimensions,
+} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import logo from '../../assets/logos/logoAbout.png';
 import {items} from './itemsAppAbout';
+
+const {height} = Dimensions.get('window');
 
 export default class OptionsAbout extends Component {
   render() {
@@ -16,7 +25,7 @@ export default class OptionsAbout extends Component {
           <Text style={styles.description}>Compilado em: 23/06/2021</Text>
         </View>
 
-        <View style={{marginTop: '40%'}}>
+        <View>
           {items.map((item, index) => {
             return (
               <TouchableOpacity
@@ -75,6 +84,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
+    marginBottom: 124,
   },
 
   container: {
