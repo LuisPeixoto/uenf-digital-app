@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Image} from 'react-native';
+import {View, StyleSheet, Image, Dimensions} from 'react-native';
 import Edicts from '../../assets/img/edicts.png';
 import Events from '../../assets/img/events.png';
+
+const {width} = Dimensions.get('window');
 
 export default class Header extends Component {
   render() {
@@ -25,8 +27,8 @@ const styles = StyleSheet.create({
   },
 
   Thumbnail: {
-    width: '100%',
-    height: 180,
-    resizeMode: 'cover',
+    width: width,
+    height: width * (25 / 54),
+    resizeMode: 'stretch',
   },
 });

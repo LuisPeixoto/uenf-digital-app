@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   StyleSheet,
   Image,
+  Dimensions,
 } from 'react-native';
 import {TextInput} from 'react-native-gesture-handler';
 import img from '../../assets/img/search.png';
@@ -18,6 +19,8 @@ import Card from '../post/card';
 import SearchQuickAccess from '../quickAccess/searchQuickAccess';
 import getDate from '../../lib/getDate';
 import CardStudentAssociations from '../post/cardsSudentAssociations';
+
+const {width} = Dimensions.get('window');
 
 export default class SearchScreen extends Component {
   _isMounted = false;
@@ -283,8 +286,8 @@ const styles = StyleSheet.create({
   },
 
   Thumbnail: {
-    width: '100%',
-    height: 200,
+    width: width,
+    height: width * (25 / 54),
     resizeMode: 'cover',
   },
 

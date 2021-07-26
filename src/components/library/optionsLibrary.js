@@ -1,9 +1,18 @@
 import React, {Component} from 'react';
-import {TouchableOpacity, View, Text, StyleSheet, Image} from 'react-native';
+import {
+  TouchableOpacity,
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  Dimensions,
+} from 'react-native';
 import {Icon} from 'native-base';
 import {FlatList} from 'react-native-gesture-handler';
 import img from '../../assets/img/library.png';
 import {items} from './itemsOptionsLbrary';
+
+const {width} = Dimensions.get('window');
 
 export default class OptionsLibrary extends Component {
   render() {
@@ -85,8 +94,8 @@ const styles = StyleSheet.create({
   },
 
   Thumbnail: {
-    width: '100%',
-    height: 200,
+    width: width,
+    height: width * (25 / 54),
     resizeMode: 'cover',
   },
 
