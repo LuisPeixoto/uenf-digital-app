@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {
   TouchableOpacity,
   View,
+  ScrollView,
   Text,
   StyleSheet,
   Image,
@@ -18,7 +19,7 @@ export default class OptionsAbout extends Component {
   render() {
     const {navigation} = this.props;
     return (
-      <View>
+      <ScrollView>
         <View>
           <Image source={img} style={styles.Thumbnail} />
         </View>
@@ -55,7 +56,7 @@ export default class OptionsAbout extends Component {
             </View>
           )}
         />
-      </View>
+      </ScrollView>
     );
   }
 }
