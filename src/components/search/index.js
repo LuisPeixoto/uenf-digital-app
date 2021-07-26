@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
     flexWrap: 'wrap',
     marginTop: 40,
     marginBottom: 40,
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     alignItems: 'center',
     backgroundColor: '#fff',
     borderRadius: 10,
@@ -273,9 +273,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignContent: 'stretch',
     flexWrap: 'wrap',
-    marginTop: 100,
     marginBottom: 30,
-    justifyContent: 'center',
+    justifyContent: 'space-around',
     alignItems: 'center',
     backgroundColor: '#fff',
     borderRadius: 10,
@@ -293,7 +292,7 @@ const styles = StyleSheet.create({
 
   containersImage: {
     width: '100%',
-    height: 120,
+    marginBottom: 40,
   },
 
   TextInput: {
@@ -310,7 +309,7 @@ const styles = StyleSheet.create({
   },
 
   Button: {
-    width: '20%',
+    width: 50,
     height: 50,
     borderRadius: 10,
     alignItems: 'center',
