@@ -38,7 +38,7 @@ export default class Page extends Component {
   loadProducts = async (page = 1) => {
     const {title} = this.props;
     try {
-      const response = api.get(`/posts/search?q=${title}`);
+      const response = api.get(`/posts/search?q=${title}&p=${page}`);
 
       const {posts, ...productInfo} = (await response).data;
       if (page == 1) {
