@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {View, StyleSheet, Dimensions} from 'react-native';
-import LottieView from 'lottie-react-native';
+import {View, StyleSheet, Dimensions, ActivityIndicator} from 'react-native';
 import Error from './error';
 
 const {width, height} = Dimensions.get('window');
@@ -38,12 +37,7 @@ class NotFoundFeed extends Component {
     if (!this.state.timePassed) {
       return (
         <View style={styles.Container}>
-          <LottieView
-            style={{width: width / 2.5}}
-            source={require('../../assets/loading.json')}
-            autoPlay
-            loop
-          />
+          <ActivityIndicator size="large" color="#fff" />
         </View>
       );
     } else {

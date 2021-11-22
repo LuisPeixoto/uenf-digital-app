@@ -11,6 +11,6 @@ exports.items = [
     nameIcon: 'people-outline',
     typeIcon: 'Ionicons',
     screen: 'WebView',
-    url: 'https://digitalcc.uenf.br/quem-somos/',
+    url: 'https://digital.uenf.br/quem-somos/',
   },
 ];

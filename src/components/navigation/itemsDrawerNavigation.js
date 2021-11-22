@@ -4,7 +4,7 @@ exports.items = [
     nameIcon: 'book',
     typeIcon: 'FontAwesome',
     screen: 'WebView',
-    url: 'https://digitalcc.uenf.br/manual-do-calouro/',
+    url: 'https://digital.uenf.br/manual-do-calouro/',
   },
 
   {
@@ -20,7 +20,7 @@ exports.items = [
     nameIcon: 'document-text',
     typeIcon: 'Ionicons',
     screen: 'WebView',
-    url: 'https://digitalcc.uenf.br/documentos-academicos/',
+    url: 'https://digital.uenf.br/documentos-academicos/',
   },
 
   {
@@ -28,7 +28,7 @@ exports.items = [
     nameIcon: 'lab-flask',
     typeIcon: 'Entypo',
     screen: 'WebView',
-    url: 'https://digitalcc.uenf.br/projetos-de-extensao/',
+    url: 'https://digital.uenf.br/projetos-de-extensao/',
   },
 
   {

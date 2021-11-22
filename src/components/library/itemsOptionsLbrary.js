@@ -1,11 +1,11 @@
 exports.items = [
   {
-    title: 'Empréstimos e reservas',
+    title: 'Empréstimos',
     nameIcon: 'book',
     category: 'Consultar',
     typeIcon: 'AntDesign',
     url:
-      'http://www.bibliotecas.uenf.br/informa/cgi-bin/biblio.dll/emprest?g=geral&bd=&p=GERAL',
+      'http://bibliotecas.uenf.br:8011/informa/cgi-bin/biblio.dll/emprest?g=geral&bd=&p=GERAL',
   },
 
   {
@@ -14,7 +14,7 @@ exports.items = [
     nameIcon: 'document-text-outline',
     typeIcon: 'Ionicons',
     url:
-      'http://www.bibliotecas.uenf.br/informa/cgi-bin/biblio.dll/book?g=geral&bd=&p=GERAL&unide=&t=',
+      'http://bibliotecas.uenf.br:8011/informa/cgi-bin/biblio.dll/book?g=geral&bd=&p=GERAL&unide=&t=',
   },
 
   {
@@ -23,7 +23,7 @@ exports.items = [
     category: 'Consultar',
     typeIcon: 'Ionicons',
     url:
-      'http://www.bibliotecas.uenf.br/informa/cgi-bin/biblio.dll/colec?g=geral&bd=&p=GERAL',
+      'http://bibliotecas.uenf.br:8011/informa/cgi-bin/biblio.dll/colec?g=geral&bd=&p=GERAL',
   },
 
   {
@@ -32,6 +32,6 @@ exports.items = [
     nameIcon: 'book-plus-multiple-outline',
     typeIcon: 'MaterialCommunityIcons',
     url:
-      'http://www.bibliotecas.uenf.br/informa/cgi-bin/biblio.dll/sugest?g=geral&bd=&p=MULTIPLA',
+      'http://bibliotecas.uenf.br:8011/informa/cgi-bin/biblio.dll/sugest?g=geral&bd=&p=MULTIPLA',
   },
 ];
