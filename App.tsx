@@ -1,6 +1,4 @@
 import React from 'react';
-import { Text } from 'react-native';
-
 import {
   useFonts,
   Inter_400Regular,
@@ -14,6 +12,7 @@ import {
 } from '@expo-google-fonts/archivo';
 import { ThemeProvider } from 'styled-components/native';
 import theme from './src/Global/styles/theme';
+import { Routes } from './src/routes';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -29,7 +28,7 @@ export default function App() {
   }
   return (
     <ThemeProvider theme={theme}>
-      <Text>Hello World</Text>
+      <Routes />
     </ThemeProvider>
   );
 }
