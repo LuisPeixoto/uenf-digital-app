@@ -25,9 +25,10 @@ module.exports = {
   plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier'],
   rules: {
     'prettier/prettier': 'error',
+    camelcase: 0,
+    '@typescript-eslint/camelcase': 'off',
     'react/jsx-one-expression-per-line': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/camelcase': 'off',
     'import/no-duplicates': 'off',
     'no-use-before-define': 'off',
     '@typescript-eslint/no-empty-interface': 'off',
