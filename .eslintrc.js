@@ -27,6 +27,7 @@ module.exports = {
     'prettier/prettier': 'error',
     camelcase: 0,
     '@typescript-eslint/camelcase': 'off',
+    'react/no-unstable-nested-components': 0,
     'react/jsx-one-expression-per-line': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
     'import/no-duplicates': 'off',
