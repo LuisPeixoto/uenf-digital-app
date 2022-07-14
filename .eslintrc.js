@@ -26,6 +26,7 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     camelcase: 0,
+    'no-nested-ternary': 0,
     '@typescript-eslint/camelcase': 'off',
     'react/no-unstable-nested-components': 0,
     'react/jsx-one-expression-per-line': 'off',
@@ -39,6 +40,7 @@ module.exports = {
     'react/style-prop-object': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react/function-component-definition': 'off',
     'no-unused-expressions': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.tsx'] }],
     'import/prefer-default-export': 'off',
