@@ -1,23 +1,27 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
-import { StatusBar } from 'expo-status-bar';
-import { Home } from '../screens/Home';
-import { Header } from '../components/Header';
+import {
+  createDrawerNavigator,
+  DrawerContentComponentProps,
+} from '@react-navigation/drawer';
+import { AppStack } from './app.stack.routes';
+import { Sidebar } from '../components/Sidebar';
 
 export function Routes() {
-  const { Navigator, Screen } = createStackNavigator();
+  const Drawer = createDrawerNavigator();
   return (
     <NavigationContainer>
-      <StatusBar style="light" translucent backgroundColor="transparent" />
-      <Navigator
-        initialRouteName="Home"
+      <Drawer.Navigator
+        initialRouteName="AppStack"
+        drawerContent={(props: DrawerContentComponentProps) => (
+          <Sidebar {...props} />
+        )}
         screenOptions={{
-          header: () => <Header />,
+          headerShown: false,
         }}
       >
-        <Screen name="Home" component={Home} />
-      </Navigator>
+        <Drawer.Screen name="AppStack" component={AppStack} />
+      </Drawer.Navigator>
     </NavigationContainer>
   );
 }
