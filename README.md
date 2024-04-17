@@ -2,16 +2,6 @@
   <img src="banner.png" alt="UENF Digital Logo">
 </p>
 
-## Table of Contents
-- [About the Project](#about-the-project)
-- [Key Features](#key-features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-
-## About the Project
-
 The "UENF Digital" app is a mobile extension of the UENF Digital portal, designed to enhance the accessibility of information and services of the State University of Northern Rio de Janeiro (UENF) directly through mobile devices. This app focuses on facilitating access to important university updates, library services, and dining options, all via smartphone. Its key features include access to and search for posts from the main UENF site, customizable notifications about new content, as well as essential library services such as book loans, reservations, consultations, and a suggestion box for improvements to the collection. The daily and weekly menus of the University Restaurant are also a highlighted feature, promoting convenience for the app's users.
 
 The project "UENF Digital: A New Look" forms the basis that supports the development of the app, acting as a digital portal adapted to the needs of a connected generation. The initiative aims to provide a dynamic social communication platform that serves both the internal and external community of UENF, integrating modern information and communication technologies to facilitate access to and dissemination of information about the university and its activities.
@@ -19,7 +9,16 @@ The project "UENF Digital: A New Look" forms the basis that supports the develop
 Launched in 2017 and linked to the Pro-Rectorate of Extension and the UENF Communication Management, the portal project was developed by a multidisciplinary team of professors, University Open scholarship holders, and students. These collaborators combine theoretical and practical knowledge to create a portal that not only meets academic standards of quality and accessibility but also reflects the goals of a public and free institution.
 
 Finally, UENF Digital aims to expand the communication of the initiatives of the "UENF Open Doors" program, unify the visual and textual language of the various extension activities of the university, and maximize the visibility of these activities. Through the mobile app and the portal, the project seeks to consolidate the institutional presence of UENF, promoting a positive impact both for the internal and external community, with efficient and modern communication.
-## Previews
+
+## Table of Contents
+- [Screenshots](#screenshots)
+- [Key Features](#key-features)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+## Screenshots
 
 
 ## Key Features
@@ -82,6 +81,10 @@ Finally, UENF Digital aims to expand the communication of the initiatives of the
   ```bash
   cd ios && pod install && yarn ios
   ```
+
+## Contact
+Created by @luispeixoto - feel free to contact me!
+
 
 ## License
 
