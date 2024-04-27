@@ -19,6 +19,10 @@ Finally, UENF Digital aims to expand the communication of the initiatives of the
 - [License](#license)
 
 ## Screenshots
+![image](https://github.com/LuisPeixoto/uenf-digital-app/assets/49557710/e4bb5c22-1332-4905-bcae-f14c59e72810)
+
+![image](https://github.com/LuisPeixoto/uenf-digital-app/assets/49557710/961e4605-c22b-48c5-81dd-e7932b312a1a)
+
 
 
 ## Key Features
